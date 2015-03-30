@@ -31,5 +31,19 @@ print food
 '+' when i tried i kept getting errors so I only used
 .insert()"""
 
+#fuction returning furits starting with P here
+
+print food
+#remove last fruit in food list
+food1 = food
+food1.pop()
+print food1
+
+delete_fruit = raw_input(u'choose a fruit to remove from list')
+d = delete_fruit
+food1.remove(d)
+
+
+
 
 
